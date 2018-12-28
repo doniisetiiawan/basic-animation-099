@@ -3,7 +3,7 @@ import Header from "../shared/components/layout/Header";
 import Content from "../shared/components/layout/Content";
 import Footer from "../shared/components/layout/Footer";
 
-import Home from "./Home/Home";
+import Animation from "./Animation/Animation";
 import "./App.css";
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
         <Header title="Welcome to Codejobs" />
         <Content>
-          <Home />
+          <Animation />
         </Content>
         <Footer />
       </div>
